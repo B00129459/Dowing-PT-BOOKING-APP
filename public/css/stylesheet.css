@@ -1,0 +1,73 @@
+body{
+    background-image: url("../images/img_2.png");
+    background-repeat: no-repeat;
+}
+
+div1{
+    background-image: url("../images/img_1.png");
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+header{
+    background-color: #3333;
+}
+
+h1{
+    color: white;
+    font-family: "Bookman Old Style", serif;
+}
+
+h2{
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+table, th, td {
+    border:1px solid whitesmoke;
+    background-color: black;
+    color: white;
+}
+
+footer{
+    font-family: "Eras Bold ITC";
+}
